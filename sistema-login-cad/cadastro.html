@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <form class="form" method="POST" action="cad.php">
+      <h2>Cadastro</h2>
+      
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" required />
+      
+      <label for="email">Email:</label>
+      <input type="email" name="email" required />
+      
+      <label for="usuario">Usuário:</label>
+      <input type="text" name="usuario" required />
+      
+      <label for="senha">Senha:</label>
+      <input type="password" name="senha" required />
+      
+      <button type="submit">Cadastrar</button>
+
+      <p class="link">
+        Já tem conta? <a href="index.html">Faça login</a>
+      </p>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      padding: 40px;
+      color: #333;
+    }
+    .container {
+      background-color: #fff;
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #444;
+    }
+    .logout {
+      margin-top: 20px;
+      display: inline-block;
+      background-color: #c0392b;
+      color: #fff;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .logout:hover {
+      background-color: #e74c3c;
+    }
